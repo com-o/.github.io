@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tienda de Libros Digitales</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #111;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+header h1 {
+    color: #ffcc00;
+    font-size: 2.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+.book-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    width: 280px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #444;
+    transition: transform 0.3s;
+}
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(255,204,0,0.7);
+}
+.book-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-bottom: 1px solid #444;
+}
+.book-content {
+    padding: 1rem;
+}
+.book-content h2 {
+    color: #ffcc00;
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+.book-content p {
+    color: #ccc;
+    margin: 0.3rem 0;
+}
+.btn {
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background-color: #e6b800;
+}
+.more-info {
+    display: none;
+    text-align: left;
+    padding: 1rem;
+    border-top: 1px solid #444;
+    color: #ddd;
+    font-size: 0.9rem;
+}
+.more-info code {
+    background-color: #333;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #ffcc00;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Tienda de Libros Digitales</h1>
+</header>
+
+<div class="container">
+
+<!-- Libro 1 -->
+<div class="book-card">
+<img src="https://via.placeholder.com/280x350.png?text=Psicologia+Oscura" alt="Libros de Psicología Oscura Completo">
+<div class="book-content">
+<h2>Libros de Psicología Oscura Completo</h2>
+<p>Autor: Alejandro Vargas</p>
+<p>Páginas: 77</p>
+<p>Precio: $17</p>
+<button class="btn toggle-info">Más Información</button>
+<div class="more-info">
+<p>Descubre los secretos de la mente que pocos se atreven a explorar. Este libro te enseñará cómo influir, persuadir y dominar situaciones y personas, desde negocios hasta relaciones personales. Una guía indispensable para quienes buscan poder y control de manera estratégica.</p>
+<p><strong>Métodos de pago:</strong></p>
+<ul>
+<li>USDT TRC20: <code>TJiL3TtBBkXh5g5BXz8jT6VStGhU3QFYRJ</code></li>
+<li>USDT Ethereum ERC20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+<li>USDT BEP20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+</ul>
+<div style="text-align:center;">
+<a href="https://wa.link/g12579" class="btn">Obtener Ahora</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Libro 2 -->
+<div class="book-card">
+<img src="https://via.placeholder.com/280x350.png?text=Conquista+tu+fisico" alt="Conquista tu físico">
+<div class="book-content">
+<h2>Conquista tu físico</h2>
+<p>Autor: Desconocido</p>
+<p>Páginas: 43</p>
+<p>Precio: $15</p>
+<button class="btn toggle-info">Más Información</button>
+<div class="more-info">
+<p>Transforma tu cuerpo y tu confianza con técnicas que te llevarán a tu mejor versión. Aprende a destacar físicamente y a sentir seguridad y presencia en cualquier situación, aumentando tu atractivo y fuerza personal.</p>
+<p><strong>Métodos de pago:</strong></p>
+<ul>
+<li>USDT TRC20: <code>TJiL3TtBBkXh5g5BXz8jT6VStGhU3QFYRJ</code></li>
+<li>USDT Ethereum ERC20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+<li>USDT BEP20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+</ul>
+<div style="text-align:center;">
+<a href="https://wa.link/g12579" class="btn">Obtener Ahora</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Libro 3 -->
+<div class="book-card">
+<img src="https://via.placeholder.com/280x350.png?text=El+Abismo+de+las+Almas" alt="El Abismo de las Almas">
+<div class="book-content">
+<h2>El Abismo de las Almas</h2>
+<p>Autor: Alejandro Vargas</p>
+<p>Páginas: 41</p>
+<p>Precio: $16</p>
+<button class="btn toggle-info">Más Información</button>
+<div class="more-info">
+<p>Explora los misterios profundos de la mente y el alma. Este libro te guía a entender lo oculto y lo prohibido, desarrollando intuición y estrategia para tomar ventaja en cualquier relación o situación, desde negocios hasta la vida personal.</p>
+<p><strong>Métodos de pago:</strong></p>
+<ul>
+<li>USDT TRC20: <code>TJiL3TtBBkXh5g5BXz8jT6VStGhU3QFYRJ</code></li>
+<li>USDT Ethereum ERC20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+<li>USDT BEP20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+</ul>
+<div style="text-align:center;">
+<a href="https://wa.link/g12579" class="btn">Obtener Ahora</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Libro 4 -->
+<div class="book-card">
+<img src="https://via.placeholder.com/280x350.png?text=The+Game" alt="The Game">
+<div class="book-content">
+<h2>The Game</h2>
+<p>Autor: Neil Strauss</p>
+<p>Páginas: 273</p>
+<p>Precio: $20</p>
+<button class="btn toggle-info">Más Información</button>
+<div class="more-info">
+<p>Aprende estrategias avanzadas de interacción, seducción y persuasión. Este libro revela cómo destacar, influir y construir relaciones poderosas, ofreciendo conocimientos que cambiarán la forma en que te mueves en cualquier entorno social o profesional.</p>
+<p><strong>Métodos de pago:</strong></p>
+<ul>
+<li>USDT TRC20: <code>TJiL3TtBBkXh5g5BXz8jT6VStGhU3QFYRJ</code></li>
+<li>USDT Ethereum ERC20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+<li>USDT BEP20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+</ul>
+<div style="text-align:center;">
+<a href="https://wa.link/g12579" class="btn">Obtener Ahora</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Libro 5 -->
+<div class="book-card">
+<img src="https://via.placeholder.com/280x350.png?text=El+Camino+al+Hombre+Valiente" alt="El Camino al Hombre Valiente">
+<div class="book-content">
+<h2>El Camino al Hombre Valiente</h2>
+<p>Autor: Alejandro Vargas</p>
+<p>Páginas: 46</p>
+<p>Precio: $18</p>
+<button class="btn toggle-info">Más Información</button>
+<div class="more-info">
+<p>Una guía completa para el hombre que quiere dominar su vida. Aprende seducción, emprendimiento, negocios, superación personal y cómo destacar en cualquier situación. Cada capítulo está diseñado para formar hombres valientes, seguros y exitosos.</p>
+<p><strong>Métodos de pago:</strong></p>
+<ul>
+<li>USDT TRC20: <code>TJiL3TtBBkXh5g5BXz8jT6VStGhU3QFYRJ</code></li>
+<li>USDT Ethereum ERC20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+<li>USDT BEP20: <code>0xEc53dFEA7c492302C4C03414Cd040851A383fdFe</code></li>
+</ul>
+<div style="text-align:center;">
+<a href="https://wa.link/g12579" class="btn">Obtener Ahora</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<script>
+document.querySelectorAll('.toggle-info').forEach(button => {
+    button.addEventListener('click', () => {
+        const info = button.nextElementSibling;
+        info.style.display = info.style.display === 'block' ? 'none' : 'block';
+    });
+});
+</script>
+
+</body>
+</html>
